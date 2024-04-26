@@ -1,0 +1,96 @@
+body {
+  font-size: 16px;
+  line-height: 0.3;
+  text-align-last: center;
+}
+#currentDay {
+  color: white;
+}
+#currentTime {
+  color: white;
+}
+
+#nav {
+  height: 70px;
+  
+}
+
+textarea{
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+}
+
+.header {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-bottom: 4px solid black;
+}
+
+.description{
+  margin-left:  25px;
+  white-space: pre-wrap;
+  width: 500px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.time-block{
+  text-align: center;
+  border-radius: 15px;
+  display: inline-block;
+  margin-left: 50px;
+}
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;;
+}
+
+.past {
+  background-color:#FADBD8;
+  color: black;
+  font-size: 16px;
+  text-align-last: left;
+}
+
+.present {
+  background-color:#FCF3CF;
+  color: black;
+  font-size: 16px;
+  text-align-last: left;
+}
+
+.future {
+  background-color:#D4EFDF;
+  color: black;
+  font-size: 16px;
+  text-align-last: left;
+}
+
+.save {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #AAB7B8;
+  color: white;
+}
+
+.save i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+#icons {
+  float: center;
+  size: 10px;
+}
+footer {
+  background-color:black;
+}
+#h5 {
+  color: white;
+}
